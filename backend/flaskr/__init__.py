@@ -239,7 +239,7 @@ def create_app(test_config=None):
       else:
         return jsonify({
           'success':True,
-          'question':'No question'
+          'question':None
         })
     
     except:
